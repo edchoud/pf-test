@@ -10453,21 +10453,10 @@ Le workflow a été intentionnellement conçu pour refléter la façon dont les 
     return b(),()=>{
       window.removeEventListener("resize",c),document.removeEventListener("mousemove",d),document.removeEventListener("mouseleave",m),document.removeEventListener("mouseenter",f),n.current&&cancelAnimationFrame(n.current)
     }
-  },[]),typeof window<"u"&&"ontouchstart"in window?null:p.jsxs(p.Fragment,{
-    children:[p.jsx("style",{
-      children:`
-        html, body, *, *::before, *::after {
-          cursor: none !important;
-        }
-        html {
-          cursor: none !important;
-        }
-      `
-    }),p.jsx("canvas",{
-      ref:e,className:"pointer-events-none fixed inset-0 z-[9998]"
+  },[]),null},[]),typeof window<"u"&&"ontouchstart"in window?null:p.jsxs(p.Fragment,{
     }),p.jsx("div",{
       className:"pointer-events-none fixed z-[9999] rounded-full",style:{
-        left:o.x-5,top:o.y-5,width:10,height:10,backgroundColor:"#F67700",opacity:s?1:0
+        left:o.x-5,top:o.y-5,width:10,height:10,backgroundColor:"#1442c0ff",opacity:s?1:0
       }
     })]
   })
