@@ -31,13 +31,12 @@
         "B2B SaaS",
         "Onboarding",
         "User Research",
-        "Cross-functional Collaboration",
-        "Traveltech"
+        "Cross-functional Collaboration"
       ],
       "location": "France"
     },
     "lectra": {
-      "title": "B2C Marketplace",
+      "title": "B2C Marketplace Optimisation",
       "description": "Feature additions and redesigns on Decathlon Travel's B2C marketplace and desing system reskin.",
       "tags": [
         "Mobile-first",
