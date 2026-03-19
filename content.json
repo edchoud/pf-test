@@ -36,7 +36,7 @@
       ],
       "location": "France"
     },
-    "dooblo": {
+    "lectra": {
       "title": "B2C Marketplace",
       "description": "Feature additions and redesigns on Decathlon Travel's B2C marketplace and desing system reskin.",
       "tags": [
@@ -58,7 +58,7 @@
       ],
       "location": "Sweden"
     },
-    "lectra": {
+    "dooblo": {
       "title": "First Time User Experience on Stellaris",
       "description": "Overhaul of the onboarding/tutorials on Stellaris to reduce churn rate and help players learn more efficiently.",
       "tags": [
