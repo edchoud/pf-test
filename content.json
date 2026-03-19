@@ -47,6 +47,17 @@
       ],
       "location": "France"
     },
+    "finoptima": {
+      "title": "Cloaking feature on Stellaris",
+      "description": "Design-to-Factory collaboration platform — turning fragmented communication and sample approvals into a structured, traceable production workflow.",
+      "tags": [
+        "Desktop Video Game",
+        "Complex Workflows",
+        "Cross-functional Collaboration",
+        "Gaming"
+      ],
+      "location": "Sweden"
+    },
     "lectra": {
       "title": "First Time User Experience on Stellaris",
       "description": "Overhaul of the onboarding/tutorials on Stellaris to reduce churn rate and help players learn more efficiently.",
@@ -54,17 +65,6 @@
         "Desktop Video Game",
         "Onboarding",
         "Information Hierarchy",
-        "Cross-functional Collaboration",
-        "Gaming"
-      ],
-      "location": "Sweden"
-    },
-    "finoptima": {
-      "title": "Cloaking feature on Stellaris",
-      "description": "Design-to-Factory collaboration platform — turning fragmented communication and sample approvals into a structured, traceable production workflow.",
-      "tags": [
-        "Desktop Video Game",
-        "Complex Workflows",
         "Cross-functional Collaboration",
         "Gaming"
       ],
