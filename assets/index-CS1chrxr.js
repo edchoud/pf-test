@@ -10471,11 +10471,11 @@ Le workflow a été intentionnellement conçu pour refléter la façon dont les 
               className:"body-large mb-8 md:mb-10 max-w-2xl cursor-default",children:t.hero.subtitle
             }),p.jsxs("div",{
               id:"contact",className:"flex flex-col sm:flex-row gap-3",children:[p.jsxs("a",{
-                href:"https://www.linkedin.com/in/katya-pruieva-b525a0157/",target:"_blank",rel:"noopener noreferrer",className:"btn-outline group",children:[p.jsx(mw,{
+                href:"https://www.linkedin.com/in/edouardchoudin",target:"_blank",rel:"noopener noreferrer",className:"btn-outline group",children:[p.jsx(mw,{
                   className:"w-4 h-4 mr-2 group-hover:text-background transition-colors"
                 }),t.buttons.linkedin]
               }),p.jsxs("a",{
-                href:"mailto:hello@katyapruieva.com",className:"btn-outline group",children:[p.jsx(Kl,{
+                href:"mailto:edouard.choudin@gmail.com",className:"btn-outline group",children:[p.jsx(Kl,{
                   className:"w-4 h-4 mr-2 group-hover:text-background transition-colors"
                 }),t.buttons.message]
               })]
@@ -10894,7 +10894,7 @@ Le workflow a été intentionnellement conçu pour refléter la façon dont les 
           className:"flex flex-col items-center text-center",children:[p.jsx("p",{
             className:"body-large text-muted-foreground mb-6 max-w-md",children:"Interested in working together?"
           }),p.jsxs("a",{
-            href:"mailto:hello@katyapruieva.com",className:"btn-outline group",children:[p.jsx(Kl,{
+            href:"mailto:edouard.choudin@gmail.com",className:"btn-outline group",children:[p.jsx(Kl,{
               className:"w-4 h-4 mr-2 group-hover:text-background transition-colors"
             }),t.buttons.message]
           })]
