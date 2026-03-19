@@ -10453,13 +10453,7 @@ Le workflow a été intentionnellement conçu pour refléter la façon dont les 
     return b(),()=>{
       window.removeEventListener("resize",c),document.removeEventListener("mousemove",d),document.removeEventListener("mouseleave",m),document.removeEventListener("mouseenter",f),n.current&&cancelAnimationFrame(n.current)
     }
-  },[]),null},[]),typeof window<"u"&&"ontouchstart"in window?null:p.jsxs(p.Fragment,{
-    }),p.jsx("div",{
-      className:"pointer-events-none fixed z-[9999] rounded-full",style:{
-        left:o.x-5,top:o.y-5,width:10,height:10,backgroundColor:"#1442c0ff",opacity:s?1:0
-      }
-    })]
-  })
+  },[]),null
 },Kk=({
   title:e,description:t,tags:n,slug:r,image:o,location:i,isLocked:s=!1,imageContain:a=!1
 })=>{
