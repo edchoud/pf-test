@@ -5,7 +5,7 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "I'm Edouard, a Product Designer bridging UX/UI, for a wide range of digital products",
+    "title": "I'm Edouard, I design a wide range of digital products",
     "subtitle": "Leveraging UX expertise and product acumen to architect impactful interactive solutions from concept to launch."
   },
   "buttons": {
@@ -25,51 +25,50 @@
   },
   "cases": {
     "purcari": {
-      "title": "Digital platform for winery operations",
-      "description": "Digital winemaking operations platform — transforming paper-based production processes into structured, traceable digital data, while making day-to-day work easier for production teams.",
-      "tags": [
-        "B2E SaaS",
-        "Operational Platform",
-        "Digitalisation",
-        "Data Management",
-        "Agritech"
-      ],
-      "location": "Europe"
-    },
-    "dooblo": {
-      "title": "Talent First",
-      "description": "Global B2B SaaS — transforming a complex desktop product into a cloud-based platform.",
-      "tags": [
-        "B2B",
-        "Data UX",
-        "Design systems",
-        "Product Redesign",
-        "Complex Workflows"
-      ],
-      "location": "Middle East"
-    },
-    "finoptima": {
-      "title": "FinOptima",
-      "description": "AI-driven fraud detection platform — enabling credit unions and neo-banks to detect synthetic identity fraud, assess behavioral risk, and make faster, safer approval decisions.",
+      "title": "Sport experience setup wizard",
+      "description": "Creation of a step-by-step configuration assistant for travel partners to add their sport experience to Decathlon Travel's marketplace.",
       "tags": [
         "B2B SaaS",
-        "MVP",
-        "Cybersecurity",
-        "Risk Intelligence",
-        "Fintech"
-      ],
-      "location": "USA"
-    },
-    "lectra": {
-      "title": "Design-to-Factory Collaborative Platform",
-      "description": "Design-to-Factory collaboration platform — turning fragmented communication and sample approvals into a structured, traceable production workflow.",
-      "tags": [
-        "B2B / B2E SaaS",
-        "Enterprise UX",
+        "Onboarding",
+        "User Research",
         "Cross-functional Collaboration",
-        "Fashion Tech"
+        "Traveltech"
       ],
       "location": "France"
+    },
+    "dooblo": {
+      "title": "B2C Marketplace",
+      "description": "Feature additions and redesigns on Decathlon Travel's B2C marketplace and desing system reskin.",
+      "tags": [
+        "Mobile-first",
+        "User Research",
+        "Design System",
+        "Product Redesign"
+      ],
+      "location": "France"
+    },
+    "lectra": {
+      "title": "First Time User Experience on Stellaris",
+      "description": "Overhaul of the onboarding/tutorials on Stellaris to reduce churn rate and help players learn more efficiently.",
+      "tags": [
+        "Desktop Video Game",
+        "Onboarding",
+        "Information Hierarchy",
+        "Cross-functional Collaboration",
+        "Gaming"
+      ],
+      "location": "Sweden"
+    },
+    "finoptima": {
+      "title": "Cloaking feature on Stellaris",
+      "description": "Design-to-Factory collaboration platform — turning fragmented communication and sample approvals into a structured, traceable production workflow.",
+      "tags": [
+        "Desktop Video Game",
+        "Complex Workflows",
+        "Cross-functional Collaboration",
+        "Gaming"
+      ],
+      "location": "Sweden"
     },
     "placeholder": {
       "title": "Selected Visual Work",
