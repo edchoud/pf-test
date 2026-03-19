@@ -9631,9 +9631,7 @@ function ek(e,t){
   }
 }function rk(e,t,n){
   t===void 0&&(t=!1),n===void 0&&(n=!0),mg(e==="*"||!e.endsWith("*")||e.endsWith("/*"),'Route path "'+e+'" will be treated as if it were '+('"'+e.replace(/\*$/,"/*")+'" because the `*` character must ')+"always follow a `/` in the pattern. To get rid of this warning, "+('please change the route path to "'+e.replace(/\*$/,"/*")+'".'));
-  let r=[],o="^"+e.replace(/\/*\*?$/,"").replace(/^\/*/,"/").replace(/[\\.*+^${
-    
-  }|()[\]]/g,"\\$&").replace(/\/:([\w-]+)(\?)?/g,(s,a,l)=>(r.push({
+  let r=[],o="^"+e.replace(/\/*\*?$/,"").replace(/^\/*/,"/").replace(/[\\.*+^${}|()[\]]/g,"\\$&").replace(/\/:([\w-]+)(\?)?/g,(s,a,l)=>(r.push({
     paramName:a,isOptional:l!=null
   }),l?"/?([^\\/]+)?":"/([^\\/]+)"));
   return e.endsWith("*")?(r.push({
