@@ -33,10 +33,10 @@
         "User Research",
         "Cross-functional Collaboration"
       ],
-      "location": "Decathlon (France)"
+      "location": "Decathlon"
     },
     "lectra": {
-      "title": "Decathlon - B2C Marketplace Optimisation",
+      "title": "B2C marketplace optimisation",
       "description": "Feature additions and redesigns on Decathlon Travel's B2C marketplace and desing system reskin.",
       "tags": [
         "Mobile-first",
@@ -44,10 +44,10 @@
         "Design System",
         "Product Redesign"
       ],
-      "location": "Decathlon (France)"
+      "location": "Decathlon"
     },
     "finoptima": {
-      "title": "Paradox - Cloaking feature on Stellaris",
+      "title": "Cloaking feature on Stellaris",
       "description": "Design-to-Factory collaboration platform — turning fragmented communication and sample approvals into a structured, traceable production workflow.",
       "tags": [
         "Desktop Video Game",
@@ -55,10 +55,10 @@
         "Cross-functional Collaboration",
         "Gaming"
       ],
-      "location": "Paradox Interactive (Sweden)"
+      "location": "Paradox Interactive"
     },
     "dooblo": {
-      "title": "Paradox - Onboarding & tutorials on Stellaris",
+      "title": "Onboarding & tutorials on Stellaris",
       "description": "Overhaul of the onboarding/tutorials on Stellaris to reduce churn rate and help players learn more efficiently.",
       "tags": [
         "Desktop Video Game",
@@ -67,7 +67,7 @@
         "Cross-functional Collaboration",
         "Gaming"
       ],
-      "location": "Paradox Interactive (Sweden)"
+      "location": "Paradox Interactive"
     },
     "placeholder": {
       "title": "Selected Visual Work",
