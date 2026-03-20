@@ -10415,7 +10415,7 @@ Le workflow a été intentionnellement conçu pour refléter la façon dont les 
           }),p.jsx("a",{
             href:"#contact",className:"text-sm text-muted-foreground hover:text-accent-warm transition-colors",children:e.nav.contact
           }),p.jsxs("a",{
-            href:"/cv.pdf",className:"flex items-center text-sm text-muted-foreground hover:text-accent-warm transition-colors",children:[p.jsx(fw,{
+            href:"/CV_Edouard_Choudin.pdf",className:"flex items-center text-sm text-muted-foreground hover:text-accent-warm transition-colors",children:[p.jsx(fw,{
               className:"w-3.5 h-3.5 mr-1"
             }),e.buttons.cv]
           }),p.jsx(Yk,{
@@ -10477,6 +10477,10 @@ Le workflow a été intentionnellement conçu pour refléter la façon dont les 
                 href:"mailto:edouard.choudin@gmail.com",className:"btn-outline group",children:[p.jsx(Kl,{
                   className:"w-4 h-4 mr-2 group-hover:text-background transition-colors"
                 }),t.buttons.message]
+              }),p.jsxs("a",{
+                href:"/pf-test/CV_Edouard_Choudin.pdf",target:"_blank",rel:"noopener noreferrer",className:"btn-outline group",children:[p.jsx(fw,{
+                  className:"w-4 h-4 mr-2 group-hover:text-background transition-colors"
+                }),t.buttons.cv]
               })]
             })]
           })
