@@ -10428,7 +10428,7 @@ onClick:()=>t("fr"),className:`px-2 py-1 rounded transition-colors ${e==="fr"?"t
           }),p.jsx("a",{
             href:"#contact",className:"text-sm text-muted-foreground hover:text-accent-warm transition-colors",children:e.nav.contact
           }),p.jsxs("a",{
-            href:"/cv.pdf",className:"flex items-center text-sm text-muted-foreground hover:text-accent-warm transition-colors",children:[p.jsx(fw,{
+            href:"/CV_Edouard_Choudin.pdf",className:"flex items-center text-sm text-muted-foreground hover:text-accent-warm transition-colors",children:[p.jsx(fw,{
               className:"w-3.5 h-3.5 mr-1"
             }),e.buttons.cv]
           }),p.jsx(Yk,{
