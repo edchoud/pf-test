@@ -10477,6 +10477,10 @@ Le workflow a été intentionnellement conçu pour refléter la façon dont les 
                 href:"mailto:edouard.choudin@gmail.com",className:"btn-outline group",children:[p.jsx(Kl,{
                   className:"w-4 h-4 mr-2 group-hover:text-background transition-colors"
                 }),t.buttons.message]
+              }),p.jsxs("a",{
+                href:"/pf-test/CV_Edouard_Choudin.pdf",target:"_blank",rel:"noopener noreferrer",className:"btn-outline group",children:[p.jsx(fw,{
+                  className:"w-4 h-4 mr-2 group-hover:text-background transition-colors"
+                }),t.buttons.cv]
               })]
             })]
           })
