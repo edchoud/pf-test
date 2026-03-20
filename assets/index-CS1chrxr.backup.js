@@ -10395,16 +10395,16 @@ Le workflow a été intentionnellement conçu pour refléter la façon dont les 
     })]
   })
 },Yk=()=>{
-  const{
-    language:e,setLanguage:t
-  }=vi();
+  const SHOW_LANG_SWITCHER=false;
+  const{language:e,setLanguage:t}=vi();
+  if(!SHOW_LANG_SWITCHER)return null;
   return p.jsxs("div",{
-    className:"flex items-center gap-1 text-sm",children:[p.jsx("button",{
-      onClick:()=>t("en"),className:`px-2 py-1 rounded transition-colors ${e==="en"?"text-foreground font-medium":"text-muted-foreground hover:text-accent-warm"}`,children:"EN"
+className:"flex items-center gap-1 text-sm",children:[p.jsx("button",{
+onClick:()=>t("en"),className:`px-2 py-1 rounded transition-colors ${e==="en"?"text-foreground font-medium":"text-muted-foreground hover:text-accent-warm"}`,children:"EN"
     }),p.jsx("span",{
-      className:"text-muted-foreground/50",children:"/"
+className:"text-muted-foreground/50",children:"/"
     }),p.jsx("button",{
-      onClick:()=>t("fr"),className:`px-2 py-1 rounded transition-colors ${e==="fr"?"text-foreground font-medium":"text-muted-foreground hover:text-accent-warm"}`,children:"FR"
+onClick:()=>t("fr"),className:`px-2 py-1 rounded transition-colors ${e==="fr"?"text-foreground font-medium":"text-muted-foreground hover:text-accent-warm"}`,children:"FR"
     })]
   })
 },Xk=()=>{
@@ -10428,7 +10428,7 @@ Le workflow a été intentionnellement conçu pour refléter la façon dont les 
           }),p.jsx("a",{
             href:"#contact",className:"text-sm text-muted-foreground hover:text-accent-warm transition-colors",children:e.nav.contact
           }),p.jsxs("a",{
-            href:"/cv.pdf",className:"flex items-center text-sm text-muted-foreground hover:text-accent-warm transition-colors",children:[p.jsx(fw,{
+            href:"/CV_Edouard_Choudin.pdf",className:"flex items-center text-sm text-muted-foreground hover:text-accent-warm transition-colors",children:[p.jsx(fw,{
               className:"w-3.5 h-3.5 mr-1"
             }),e.buttons.cv]
           }),p.jsx(Yk,{
@@ -10475,7 +10475,7 @@ Le workflow a été intentionnellement conçu pour refléter la façon dont les 
                   className:"w-4 h-4 mr-2 group-hover:text-background transition-colors"
                 }),t.buttons.linkedin]
               }),p.jsxs("a",{
-                href:"mailto:hello@katyapruieva.com",className:"btn-outline group",children:[p.jsx(Kl,{
+                href:"mailto:edouard.choudin@gmail.com",className:"btn-outline group",children:[p.jsx(Kl,{
                   className:"w-4 h-4 mr-2 group-hover:text-background transition-colors"
                 }),t.buttons.message]
               })]
@@ -10894,7 +10894,7 @@ Le workflow a été intentionnellement conçu pour refléter la façon dont les 
           className:"flex flex-col items-center text-center",children:[p.jsx("p",{
             className:"body-large text-muted-foreground mb-6 max-w-md",children:"Interested in working together?"
           }),p.jsxs("a",{
-            href:"mailto:hello@katyapruieva.com",className:"btn-outline group",children:[p.jsx(Kl,{
+            href:"mailto:edouard.choudin@gmail.com",className:"btn-outline group",children:[p.jsx(Kl,{
               className:"w-4 h-4 mr-2 group-hover:text-background transition-colors"
             }),t.buttons.message]
           })]

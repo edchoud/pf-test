@@ -5,8 +5,8 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "I'm Edouard, I design a wide range of digital products",
-    "subtitle": "Leveraging UX expertise and product acumen to architect impactful interactive solutions from concept to launch."
+    "title": "I’m Edouard, building products through UX, strategy and delivery.",
+    "subtitle": "Leading UX-driven product initiatives end to end, fostering alignment between design, product and engineering teams."
   },
   "buttons": {
     "linkedin": "LinkedIn",
@@ -33,10 +33,10 @@
         "User Research",
         "Cross-functional Collaboration"
       ],
-      "location": "France"
+      "location": "Decathlon (France)"
     },
     "lectra": {
-      "title": "B2C Marketplace Optimisation",
+      "title": "Decathlon - B2C Marketplace Optimisation",
       "description": "Feature additions and redesigns on Decathlon Travel's B2C marketplace and desing system reskin.",
       "tags": [
         "Mobile-first",
@@ -44,10 +44,10 @@
         "Design System",
         "Product Redesign"
       ],
-      "location": "France"
+      "location": "Decathlon (France)"
     },
     "finoptima": {
-      "title": "Cloaking feature on Stellaris",
+      "title": "Paradox - Cloaking feature on Stellaris",
       "description": "Design-to-Factory collaboration platform — turning fragmented communication and sample approvals into a structured, traceable production workflow.",
       "tags": [
         "Desktop Video Game",
@@ -55,10 +55,10 @@
         "Cross-functional Collaboration",
         "Gaming"
       ],
-      "location": "Sweden"
+      "location": "Paradox Interactive (Sweden)"
     },
     "dooblo": {
-      "title": "First Time User Experience on Stellaris",
+      "title": "Paradox - Onboarding & tutorials on Stellaris",
       "description": "Overhaul of the onboarding/tutorials on Stellaris to reduce churn rate and help players learn more efficiently.",
       "tags": [
         "Desktop Video Game",
@@ -67,7 +67,7 @@
         "Cross-functional Collaboration",
         "Gaming"
       ],
-      "location": "Sweden"
+      "location": "Paradox Interactive (Sweden)"
     },
     "placeholder": {
       "title": "Selected Visual Work",
