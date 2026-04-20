@@ -15,6 +15,8 @@ Pour CHAQUE modification :
 7. Créer une Pull Request sur GitHub
 8. Supprimer la branche après merge
 
+⚠️ Après avoir mergé la PR sur GitHub : `git checkout main && git pull` dans le terminal VS Code avant toute nouvelle modification.
+
 Ne jamais créer une branche depuis une autre branche feature.
 Ne jamais commiter directement sur main.
 
