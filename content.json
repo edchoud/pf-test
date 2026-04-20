@@ -24,7 +24,7 @@
     "copyright": "Edouard Choudin"
   },
   "cases": {
-    "purcari": {
+    "decathlon-wizard": {
       "title": "Sport experience setup wizard",
       "description": "Creation of a step-by-step configuration assistant for travel partners to add their sport experience to Decathlon Travel's marketplace.",
       "tags": [
@@ -35,7 +35,7 @@
       ],
       "location": "Decathlon"
     },
-    "lectra": {
+    "decathlon-travel": {
       "title": "B2C marketplace optimisation",
       "description": "Feature additions and redesigns on Decathlon Travel's B2C marketplace and desing system reskin.",
       "tags": [
@@ -46,7 +46,7 @@
       ],
       "location": "Decathlon"
     },
-    "finoptima": {
+    "stellaris-cloaking": {
       "title": "Cloaking feature on Stellaris",
       "description": "Design-to-Factory collaboration platform — turning fragmented communication and sample approvals into a structured, traceable production workflow.",
       "tags": [
@@ -57,7 +57,7 @@
       ],
       "location": "Paradox Interactive"
     },
-    "dooblo": {
+    "stellaris-ftue": {
       "title": "Onboarding & tutorials on Stellaris",
       "description": "Overhaul of the onboarding/tutorials on Stellaris to reduce churn rate and help players learn more efficiently.",
       "tags": [
@@ -68,17 +68,6 @@
         "Gaming"
       ],
       "location": "Paradox Interactive"
-    },
-    "placeholder": {
-      "title": "Selected Visual Work",
-      "description": "A series of visual and interface projects designed and crafted by me — exploring composition, typography, and digital aesthetics.",
-      "tags": [
-        "Visual Design",
-        "UI Design",
-        "Art Direction",
-        "Digital Posters",
-        "Brand Explorations"
-      ]
     }
   },
   "experience": [
@@ -128,7 +117,7 @@
       "additional": "Additional screenshot or diagram",
       "visualFor": "Visual for:"
     },
-    "purcari": {
+    "decathlon-wizard": {
       "title": "Digital platform for winery operations",
       "subtitle": "B2E · Operational SaaS",
       "context": "There is a digital platform that helps winemakers create work orders, share them with workers, and track execution in real time. Winemakers work on desktop, workers use tablets on the production floor.",
@@ -278,7 +267,7 @@
       "reflection": "This project taught me that operational design isn't about digitizing existing workflows — it's about understanding the deep constraints of a domain and finding the minimal intervention that unlocks significant value. The interface had to work within winemaking's reality of irreversible decisions and delayed feedback, not against it.",
       "whyMatters": "This project demonstrates designing operational systems where UX decisions directly affect real-world execution, risk, and production outcomes — not just usability metrics."
     },
-    "dooblo": {
+    "stellaris-ftue": {
       "title": "Talent First",
       "subtitle": "Global B2B SaaS · Data UX",
       "context": "This project focused on an enterprise market research platform with a large and mature feature set.\n\nThe product originally existed as a desktop application and was difficult to learn and use. Most users relied on training and internal experts, as very little of the system was intuitive.\n\nThe business goal was to make this powerful product accessible, scalable, and suitable for SaaS, without losing its core functionality.",
@@ -310,7 +299,7 @@
       "reflection": "",
       "whyMatters": ""
     },
-    "finoptima": {
+    "stellaris-cloaking": {
       "title": "FinOptima — AI-driven fraud detection platform for financial institutions",
       "subtitle": "USA · Fintech · Cybersecurity · B2B SaaS · Risk Intelligence",
       "context": "Financial institutions face growing synthetic identity fraud while relying on fragmented verification tools and opaque risk signals.\n\nFraud detection operated as a separate security layer rather than an embedded operational decision system.",
@@ -357,7 +346,7 @@
       "reflection": "This project reinforced that AI products are not about models — they are about decisions. The challenge was defining the minimal operational system capable of safe real-world use, not just demonstrating technology.\n\nIn risk-critical systems, UX determines whether intelligence becomes real-world protection.",
       "whyMatters": "AI products are not about models — they are about decisions. The challenge was defining the minimal operational system capable of safe real-world use, not just demonstrating technology."
     },
-    "lectra": {
+    "decathlon-travel": {
       "title": "Design-to-Factory Collaborative Platform",
       "subtitle": "France · Fashion Tech · B2B / B2E SaaS",
       "context": "Fashion brands manage collections across designers, suppliers, and factories. Communication happens through email threads, PDFs, spreadsheets, and disconnected 3D or tech-pack files. Sample development, approvals, and cost updates are handled across multiple tools without a shared operational layer.",
