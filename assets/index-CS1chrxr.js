@@ -10435,7 +10435,7 @@ Le workflow a été intentionnellement conçu pour refléter la façon dont les 
       passive:!0
     }),()=>window.removeEventListener("scroll",r)
   },[e]),t
-},Pg="/assets/purcari-production-k0VNU8k1.png",Zk="/assets/footer-bg-Dnjp0JU9.png",eS="/assets/finoptima-card-CC-Lvjwg.png",tS="/assets/lectra-card-BWGKLK3J.png",nS=["purcari","lectra","finoptima","dooblo","placeholder"],rS={
+},Pg="/assets/Decathlon.png",Zk="/assets/footer-bg-Dnjp0JU9.png",eS="/assets/finoptima-card-CC-Lvjwg.png",tS="/assets/lectra-card-BWGKLK3J.png",nS=["purcari","lectra","finoptima","dooblo","placeholder"],rS={
   purcari:"digital-platform-for-winery-operations",dooblo:"dooblo",finoptima:"finoptima",lectra:"design-to-factory-collaborative-platform"
 },oS={
   purcari:Pg,finoptima:eS,lectra:tS
