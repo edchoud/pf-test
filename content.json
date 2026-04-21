@@ -25,15 +25,16 @@
   },
   "cases": {
     "decathlon-wizard": {
-      "title": "Sport experience setup wizard",
-      "description": "Creation of a step-by-step configuration assistant for travel partners to add their sport experience to Decathlon Travel's marketplace.",
+      "title": "Turning a broken form into a self-service wizard",
+      "location": "Decathlon Travel · Partner SaaS",
       "tags": [
+        "Product Design",
         "B2B SaaS",
+        "UX Research",
         "Onboarding",
-        "User Research",
-        "Cross-discipline"
+        "Wizard"
       ],
-      "location": "Decathlon"
+      "description": "How redesigning the partner trip creation experience drove a 283% global increase in trips published on Decathlon Travel."
     },
     "decathlon-travel": {
       "title": "B2C marketplace optimisation",
@@ -120,10 +121,10 @@
     "decathlon-wizard": {
       "title": "Digital platform for winery operations",
       "subtitle": "B2E · Operational SaaS",
-      "context": "There is a digital platform that helps winemakers create work orders, share them with workers, and track execution in real time. Winemakers work on desktop, workers use tablets on the production floor.",
-      "myRole": "Senior Product Designer responsible for process modeling, workflow design, interaction principles, and cross-role system behavior.",
-      "problem": "During harvest, winemakers had to decide every day what to do with incoming grapes, explain actions outside the system, and then manually record results in Excel. This took a lot of time and led to frequent human errors.",
-      "solution": "Crushing & Pressing was redesigned as a clear, step-by-step workflow. Decisions are selected upfront, data is filled in automatically, and work orders are updated in real time—reducing manual work, Excel usage, and the risk of errors during harvest.",
+      "context": "Decathlon Travel is a marketplace for sports trips. Experience providers use a B2B SaaS called Partner to manage bookings, payments, and list their trips on the marketplace. The original product strategy was B2C-focused — optimizing for travelers — but research revealed the real bottleneck was on the supply side.",
+      "myRole": "Product Designer in a duo with a PM, alongside backend dev, frontend dev and CTO. End-to-end scope — from discovery to delivery.",
+      "problem": "78.6% of partners spent more than 40 minutes creating a trip — already knowing the tool. The form was a single overwhelming page with no progress indicator, no guidance, and everything appearing mandatory. Partners abandoned mid-way, some trips took weeks to go live, and travel advisors were filling forms on partners' behalf.",
+      "solution": "A step-by-step wizard replacing the monolithic form. Splitting mandatory from optional fields, adding a logical flow (experience → programme → logistics), a persistent progress bar, save state, live preview, and improved microcopy. Partners could complete the process independently and significantly faster.",
       "transformations": [
         {
           "problem": "High-risk decisions that cannot be undone",
@@ -239,33 +240,32 @@
       ],
       "focusAreas": [
         {
-          "title": "Designing for irreversibility",
-          "description": "Unlike software where you can iterate quickly, winemaking mistakes age for months before they're discovered. This shaped every interface decision — from confirmation patterns to how we surfaced historical context at critical decision points."
+          "title": "Reframing the problem",
+          "description": "User research for the search bar redesign revealed users weren't finding trips — not because of poor UX, but because supply was the bottleneck. Partners abandoning the creation form meant too few trips on the marketplace."
         },
         {
-          "title": "Bridging expertise and traceability",
-          "description": "Senior winemakers rely on intuition built over decades. The challenge was creating structure for compliance and auditability without undermining their expertise. The interface captures the minimum required for traceability while staying out of the way of the craft."
+          "title": "Design decisions",
+          "description": "A step-by-step wizard was chosen to simultaneously address cognitive load, lack of guidance, and onboarding friction. Key decisions: mandatory/optional split, logical flow, save state, progress bar, and live preview of the marketplace listing."
         },
         {
-          "title": "Multi-role, multi-device system",
-          "description": "Winemakers work on desktop with full analytics, while floor workers use tablets during physical tasks. Each interface was designed for its context — detailed decision-making vs. quick data capture under time pressure."
+          "title": "The hardest problem: pricing",
+          "description": "Two trip types (FIT and GIR), variable pricing by season, group size and age, and nested add-ons required designing dynamic price grids from scratch — while learning Decathlon Travel's business logic in parallel."
         }
       ],
       "userImpact": [
-        "System guidance with predefined processes and protocols",
-        "Visual workflow that mirrors how winemakers think and sketch the process",
-        "In-context additive management within the process flow",
-        "Automatic data transfer to registries, no end-of-day manual entry"
+        "78% of partners completed the process fully independently — no support needed",
+        "59% of trips submitted within 24 hours, up from 45% — a record at the time",
+        "100% of internal teams preferred the new version (internal survey)",
+        "~3 hours saved weekly per account manager and travel advisor"
       ],
       "businessImpact": [
-        "Fewer human errors during critical production stages",
-        "Faster daily execution during harvest",
-        "More consistent and traceable production data",
-        "Lower operational risk through standardized workflows"
+        "+283% trips published over the 10 months following deployment",
+        "3,160 trips online and 503 active partners as of February 2026",
+        "+588% trips YTD and +300% partners YTD — growth continued after my departure"
       ],
-      "takeaway": "In operational systems, the interface isn't separate from the process — it becomes the process. Design decisions directly affect whether critical actions happen correctly and on time.",
-      "reflection": "This project taught me that operational design isn't about digitizing existing workflows — it's about understanding the deep constraints of a domain and finding the minimal intervention that unlocks significant value. The interface had to work within winemaking's reality of irreversible decisions and delayed feedback, not against it.",
-      "whyMatters": "This project demonstrates designing operational systems where UX decisions directly affect real-world execution, risk, and production outcomes — not just usability metrics."
+      "takeaway": "The number I'm most proud of: 78% of partners — many non-tech-savvy, many running solo businesses — could add their experience to a marketplace entirely on their own. That's what a well-designed product should do.",
+      "reflection": "The pivot from B2C to B2B wasn't a given — it required cross-referencing heatmap data, user interviews, and partner behaviour data to make the case internally. Influencing the COO and CTO early, and sharing ownership with the PM, made the direction credible and buildable from day one.",
+      "whyMatters": "Improving conversion on the traveler side while ignoring the supply problem would have been optimizing the wrong thing. This project showed that the highest-leverage design work is sometimes the least visible — on the B2B side, behind a login wall, used by a few hundred operators rather than millions of travelers."
     },
     "stellaris-ftue": {
       "title": "Talent First",
