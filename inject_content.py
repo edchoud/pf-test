@@ -53,7 +53,7 @@ for i, c in enumerate(js[start:], start):
 
 def to_js(obj):
     if isinstance(obj, dict):
-        items = [f"{k}:{to_js(v)}" for k, v in obj.items()]
+        items = [f'"{k}":{to_js(v)}' for k, v in obj.items()]
         return "{" + ",".join(items) + "}"
     elif isinstance(obj, list):
         return "[" + ",".join(to_js(i) for i in obj) + "]"
