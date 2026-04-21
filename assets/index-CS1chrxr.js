@@ -10293,7 +10293,7 @@ function Uk(e,t){
       passive:!0
     }),()=>window.removeEventListener("scroll",r)
   },[e]),t
-},Pg="/assets/decathlon_wizard.png",Zk="/assets/footer-bg-Dnjp0JU9.png",eS="/assets/stellaris_cloaking.png",tS="/assets/lectra-card-BWGKLK3J.png",nS=["decathlon-wizard","decathlon-travel","stellaris-cloaking","stellaris-ftue"],rS={"decathlon-wizard":"decathlon-saas-wizard","stellaris-ftue":"stellaris-ftue","stellaris-cloaking":"stellaris-cloaking-feature-dlc","decathlon-travel":"decathlon-marketplace-cro-b2c"},oS={"decathlon-wizard":Pg,"stellaris-cloaking":eS,"decathlon-travel":tS},iS=()=>{
+},Pg="/assets/decathlon_wizard.png",Zk="/assets/footer-bg-Dnjp0JU9.png",eS="/assets/stellaris_cloaking.png",tS="/assets/decathlon_marketplace.png",nS=["decathlon-wizard","decathlon-travel","stellaris-cloaking","stellaris-ftue"],rS={"decathlon-wizard":"decathlon-saas-wizard","stellaris-ftue":"stellaris-ftue","stellaris-cloaking":"stellaris-cloaking-feature-dlc","decathlon-travel":"decathlon-marketplace-cro-b2c"},oS={"decathlon-wizard":Pg,"stellaris-cloaking":eS,"decathlon-travel":tS},iS=()=>{
   const e=Jk(.15),{
     t
   }=vi();
@@ -10450,7 +10450,7 @@ function Uk(e,t){
       })]
     })]
   })
-}),lS="/assets/purcari-before-WJJvt_pa.png",uS="/assets/purcari-after-1-zRjQBv0g.jpg",cS="/assets/purcari-after-2-Dox1fXav.jpg",dS="/assets/purcari-process-flow-DpCDeb7I.jpg",fS="/assets/purcari-research-diagram-BqCOg2AD.png",pS="/assets/purcari-interface-screens-DsUoh06T.png",mS="/assets/finoptima-dashboard-DwpZ6DFQ.png",hS="/assets/finoptima-risk-profile-VrXAlVZR.png",gS="/assets/finoptima-verification-BrSEjsc5.png",vS="/assets/stellaris_cloaking.png",yS="/assets/lectra-3d-review-Bi2WGBdM.png",wS="/assets/lectra-message-center-BM4pwcYA.png",xS="/assets/lectra-dashboard-CpMC1rta.png",bS="/assets/lectra-card-BWGKLK3J.png",kS="/assets/lectra-ds-DJb_-tqV.png",SS={
+}),lS="/assets/purcari-before-WJJvt_pa.png",uS="/assets/purcari-after-1-zRjQBv0g.jpg",cS="/assets/purcari-after-2-Dox1fXav.jpg",dS="/assets/purcari-process-flow-DpCDeb7I.jpg",fS="/assets/purcari-research-diagram-BqCOg2AD.png",pS="/assets/purcari-interface-screens-DsUoh06T.png",mS="/assets/finoptima-dashboard-DwpZ6DFQ.png",hS="/assets/finoptima-risk-profile-VrXAlVZR.png",gS="/assets/finoptima-verification-BrSEjsc5.png",vS="/assets/stellaris_cloaking.png",yS="/assets/lectra-3d-review-Bi2WGBdM.png",wS="/assets/lectra-message-center-BM4pwcYA.png",xS="/assets/lectra-dashboard-CpMC1rta.png",bS="/assets/decathlon_marketplace.png",kS="/assets/lectra-ds-DJb_-tqV.png",SS={
   "decathlon-saas-wizard":"decathlon-wizard","stellaris-ftue":"stellaris-ftue","stellaris-cloaking-feature-dlc":"stellaris-cloaking","decathlon-marketplace-cro-b2c":"decathlon-travel"
 },ES=()=>{
   const{
