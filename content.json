@@ -25,16 +25,15 @@
   },
   "cases": {
     "decathlon-wizard": {
-      "title": "Turning a broken form into a self-service wizard",
-      "location": "Decathlon Travel · Partner SaaS",
+      "title": "Sport experience setup wizard",
+      "description": "Creation of a step-by-step configuration assistant for travel partners to add their sport experience to Decathlon Travel's marketplace.",
       "tags": [
-        "Product Design",
         "B2B SaaS",
-        "UX Research",
         "Onboarding",
-        "Wizard"
+        "User Research",
+        "Cross-discipline"
       ],
-      "description": "How redesigning the partner trip creation experience drove a 283% global increase in trips published on Decathlon Travel."
+      "location": "Decathlon"
     },
     "decathlon-travel": {
       "title": "B2C marketplace optimisation",
