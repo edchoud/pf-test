@@ -10293,7 +10293,7 @@ function Uk(e,t){
       passive:!0
     }),()=>window.removeEventListener("scroll",r)
   },[e]),t
-},Pg="/assets/Decathlon.png",Zk="/assets/footer-bg-Dnjp0JU9.png",eS="/assets/stellaris_cloaking.png",tS="/assets/lectra-card-BWGKLK3J.png",nS=["decathlon-wizard","decathlon-travel","stellaris-cloaking","stellaris-ftue"],rS={"decathlon-wizard":"decathlon-saas-wizard","stellaris-ftue":"stellaris-ftue","stellaris-cloaking":"stellaris-cloaking-feature-dlc","decathlon-travel":"decathlon-marketplace-cro-b2c"},oS={"decathlon-wizard":Pg,"stellaris-cloaking":eS,"decathlon-travel":tS},iS=()=>{
+},Pg="/assets/decathlon_wizard.png",Zk="/assets/footer-bg-Dnjp0JU9.png",eS="/assets/stellaris_cloaking.png",tS="/assets/lectra-card-BWGKLK3J.png",nS=["decathlon-wizard","decathlon-travel","stellaris-cloaking","stellaris-ftue"],rS={"decathlon-wizard":"decathlon-saas-wizard","stellaris-ftue":"stellaris-ftue","stellaris-cloaking":"stellaris-cloaking-feature-dlc","decathlon-travel":"decathlon-marketplace-cro-b2c"},oS={"decathlon-wizard":Pg,"stellaris-cloaking":eS,"decathlon-travel":tS},iS=()=>{
   const e=Jk(.15),{
     t
   }=vi();
