@@ -10501,11 +10501,7 @@ function Uk(e,t){
               aspectRatio:"square",label:a.hero
             })
           })]
-        }),n==="decathlon-wizard"&&p.jsx("p",{
-          className:"text-xs text-muted-foreground mt-8 font-mono",children:"* Due to NDA, the company name is not disclosed and the case study presents a limited number of screens, focusing primarily on written explanations of the use case."
-        }),n==="stellaris-cloaking"&&p.jsx("p",{
-          className:"text-xs text-muted-foreground mt-8 font-mono",children:"Due to NDA, visuals are limited and the case focuses on workflows, system logic, and decision design."
-        })]
+        }),n==="stellaris-cloaking"&&p.jsx("p",{className:"text-xs text-muted-foreground mt-8 font-mono",children:"* Due to matters of NDA and confidentiality, the case study may present a limited number of internal processes and reviews, focusing primarily on written explanations of the use case and final resultats."}),n==="stellaris-ftue"&&p.jsx("p",{className:"text-xs text-muted-foreground mt-8 font-mono",children:"* Due to matters of NDA and confidentiality, the case study may present a limited number of internal processes and reviews, focusing primarily on written explanations of the use case and final resultats."})]
       })
     }),p.jsx("section",{
       className:"py-16 md:py-20 border-t border-border",children:p.jsx("div",{
