@@ -28,10 +28,10 @@
       "title": "Sport experience setup wizard",
       "description": "Creation of a step-by-step configuration assistant for travel partners to add their sport experience to Decathlon Travel's marketplace.",
       "tags": [
-        "B2B SaaS",
-        "Onboarding",
-        "User Research",
-        "Cross-discipline"
+        "SaaS",
+        "Desktop",
+        "B2B",
+        "Onboarding"
       ],
       "location": "Decathlon"
     },
@@ -39,10 +39,10 @@
       "title": "B2C marketplace optimisation",
       "description": "Feature additions and redesigns on Decathlon Travel's B2C marketplace and desing system reskin.",
       "tags": [
+        "Marketplace",
         "Mobile-first",
-        "User Research",
-        "Design System",
-        "Product Redesign"
+        "B2C",
+        "CRO"
       ],
       "location": "Decathlon"
     },
@@ -50,10 +50,9 @@
       "title": "Cloaking feature on Stellaris",
       "description": "Design-to-Factory collaboration platform — turning fragmented communication and sample approvals into a structured, traceable production workflow.",
       "tags": [
-        "Desktop Video Game",
-        "Complex Workflows",
-        "Cross-discipline",
-        "Gaming"
+        "Gaming",
+        "Desktop",
+        "Complex workflows"
       ],
       "location": "Paradox Interactive"
     },
@@ -61,11 +60,10 @@
       "title": "Onboarding & tutorials on Stellaris",
       "description": "Overhaul of the onboarding/tutorials on Stellaris to reduce churn rate and help players learn more efficiently.",
       "tags": [
-        "Desktop Video Game",
+        "Gaming",
+        "Desktop",
         "Onboarding",
-        "Information Hierarchy",
-        "Cross-discipline",
-        "Gaming"
+        "Tutorials"
       ],
       "location": "Paradox Interactive"
     }
