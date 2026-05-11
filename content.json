@@ -116,43 +116,104 @@
       "visualFor": "Visual for:"
     },
     "decathlon-wizard": {
-      "title": "Turning a broken form into a self-service wizard",
+      "title": "From abandoned forms to self-published trips",
       "subtitle": "Decathlon Travel · Partner SaaS",
-      "context": "Decathlon Travel is a marketplace for sports trips. Experience providers use a B2B SaaS called Partner to manage bookings, payments, and list their trips on the marketplace. The original product strategy was B2C-focused — optimizing for travelers — but research revealed the real bottleneck was on the supply side.",
+      "heroTitle": "From abandoned forms to self-published trips",
+      "heroSubtitle": "Redesigning the trip creation experience for travel experience providers — from discovery to delivery — to make publishing a trip on Decathlon Travel faster, simpler, and scalable.",
+      "ataGlance": {
+        "intro": "Decathlon Travel is a marketplace for sports trips — climbing, skiing, surf camps, guided hikes. Partner is the B2B SaaS used by travel experience providers to manage and publish their trips on the platform.",
+        "myRole": "Product Designer working end-to-end alongside a PM. I led the research structure, workshops, and design direction — she brought partner access and business grounding. Discovery, testing, and key decisions were co-constructed throughout.",
+        "timeline": "3–4 months · Startup mindset — ship fast, iterate",
+        "team": "Reduced team · 3 devs (2 back-end, 1 front-end) · Running in parallel with a UI compliance overhaul and UX quick wins on the existing Partner interface",
+        "tools": "Figma · Jira · Notion · Miro · Claude"
+      },
+      "genesis": [
+        {
+          "number": "01",
+          "title": "The genesis",
+          "body": "The company wasn’t converting enough — trips weren’t selling at the expected rate. Leadership decided to shift focus toward the B2B side of the product, with the goal of growing the number of trips available on the platform. My research findings from the search bar project were one of the inputs for that shift: interviews and analytics showed that users weren’t finding what they wanted because there simply weren’t enough trips listed. When the focus moved to the Partner tool, I dug deeper into how trips were being added to the platform and raised it in the product team’s weekly meeting. Once the team aligned, it was added to the next quarter’s roadmap — and I began discovery and user research in parallel with the already-agreed UX work."
+        },
+        {
+          "number": "02",
+          "title": "The real problem",
+          "body": "Partners were struggling to publish trips. Surveys and interviews with internal teams and travel experience providers revealed a consistent picture: no guidance, no sense of progress, no way to save and return. 78.6% spent 40+ min on a single trip — many gave up entirely."
+        },
+        {
+          "number": "03",
+          "title": "The scope",
+          "body": "An end-to-end redesign of the trip creation experience — from discovery and research through to design, testing, and delivery. The goal was to make publishing a trip significantly easier for travel experience providers. Running in parallel with a UI compliance overhaul on the existing Partner interface."
+        },
+        {
+          "number": "04",
+          "title": "The outcome",
+          "body": "A guided wizard that allowed 78% of partners to publish their trips entirely without assistance — contributing to a +283% increase in trips on the platform over the 10 months following deployment."
+        }
+      ],
+      "kpis": [
+        { "value": "+283%", "description": "Trips published over the 10-month period following deployment", "color": "#0d9488" },
+        { "value": "78%", "description": "Of partners fully self-sufficient", "color": "#3b82f6" },
+        { "value": "45→59%", "description": "Of trips submitted within 24h post-deployment", "color": "#d97706" },
+        { "value": "~3h", "description": "Saved per week per advisor (internal survey)", "color": "#9333ea" }
+      ],
+      "timeline": [
+        { "title": "Prior focus", "body": "My main focus was B2C — conversion optimisation and features such as user account, insurance, and sports level indicators. Research conducted during the search bar redesign surfaced a supply gap: users weren’t finding enough trips. I presented these findings to leadership, which contributed to a broader strategic shift toward the B2B side of the product.", "dimmed": true, "hasDivider": false },
+        { "title": "Audit & quick wins", "body": "I onboarded onto the Partner tool through assigned UX work — a UI compliance overhaul and prioritised screen fixes. In parallel, I began informal discovery: a product audit and internal team interviews to build a baseline understanding of the partner experience.", "dimmed": true, "hasDivider": false },
+        { "title": "Discovery & research", "body": "I led the formal user research phase — partner interviews, internal team interviews, and a survey (n=14). This uncovered the core pain points: no guidance, no sense of progress, no save state, and an overwhelming number of fields with no clear sense of priority.", "dimmed": false, "hasDivider": true },
+        { "title": "Design & delivery", "body": "Working alongside the PM and dev team, I drove workshops, design exploration, trade-offs, prototyping, and iterative delivery. Key decisions included the mandatory/optional field split, the logical flow, the guidance system, and the pricing approach.", "dimmed": false, "hasDivider": false },
+        { "title": "Deployment", "body": "The redesigned experience shipped. 78% of partners became fully self-sufficient. Over the following 10 months, trips published on the platform increased by +283%.", "dimmed": false, "hasDivider": false }
+      ],
+      "discovery": {
+        "problemStatement": "The company had shifted to a B2B focus, and the priority was clear: how can we make adding a trip to the platform faster and less painful for travel experience providers? Adding a trip was a well-known, long-standing pain point — time-consuming, frequently abandoned, and a direct blocker to growing supply on the platform.",
+        "context": "The Partner tool had been built with little to no UX oversight. Features had been added incrementally without a structured design process, which explained much of what we found.",
+        "methods": "Internal team interviews · Partner interviews · Partner survey (n=14) · Benchmarking exercise (n=4) · Product audit",
+        "stats": [
+          { "value": "~45 min", "label": "Average completion time, benchmarking exercise (n=4)" },
+          { "value": "78.6%", "label": "Of partners spent 40+ min creating a single trip" },
+          { "value": "64.3%", "label": "Identified \"Programme\" as the most time-consuming section" }
+        ],
+        "advisorCallout": "Every new partner onboarding included a 30-minute session with a travel advisor — covering the entire tool, not just trip creation. When partners got stuck, they called for help. Advisors would sometimes fill in the form themselves, and prices were occasionally entered manually after partners sent them a spreadsheet. A significant portion of advisor time was spent compensating for what the tool should have handled.",
+        "insights": [
+          { "title": "Flawed first-time user experience", "body": "The onboarding session covered the entire tool — orders, trips, finances, settings — leaving little time to properly walk through trip creation. Partners were largely left to figure it out on their own.", "borderColor": "#3b82f6" },
+          { "title": "Cognitive overload", "body": "An overwhelming number of fields with no way to distinguish mandatory from optional, no save state, and no sense of progress. Abandonment was common.", "borderColor": "#d97706" },
+          { "title": "Compensating behaviours", "body": "Travel advisors were filling in forms on behalf of partners, entering prices manually from spreadsheets, and spending hours per week on tasks the tool should have handled independently.", "borderColor": "#ef4444" }
+        ]
+      },
+      "designDelivery": {
+        "fromResearchToDirection": "The research findings pointed clearly toward the core issues: no guidance, no sense of progress, and an overwhelming number of fields with no clear priority. Two directions were considered: enhancing the existing interface, or a step-by-step wizard. Given the volume of mandatory information, the length of the task, and the varying levels of technical confidence among partners, the wizard addressed all outstanding problems simultaneously. It was unanimously agreed upon in the weekly product meeting.",
+        "mandatoryWorkshop": "Before any design work began, I led a cross-functional workshop to establish what information was truly necessary. In the room: the CTO, two developers, the PM, the content manager, a travel advisor, and an account manager. Using card sorting, we went through every field and defined what was mandatory from a technical standpoint, useful for end users, and what could be made optional or removed. The output was a consolidated field list — ensuring partners only faced what was truly necessary.",
+        "decisions": [
+          { "title": "Logical flow", "body": "Steps were ordered around how partners naturally think about their trips: experience details first, then the programme, then logistics. Not around how the database was structured." },
+          { "title": "Guidance system", "body": "Save state, progress bar, placeholder text, character counts, and contextual help throughout. Confirmed technical feasibility with the dev team before committing to the direction." },
+          { "title": "Live preview", "body": "As partners filled in information, they could see how their trip would appear on the marketplace. An immediate feedback loop that gave partners a reason to care about content quality." },
+          { "title": "The hard call — Pricing", "body": "Two trip types, prices varying by season, group size, and age, with nested add-ons. The solution was a dynamic grid: partners would first answer questions to define their pricing parameters, which would generate a tailored grid for them to fill in. Early dev conversations meant constraints were surfaced before they could block the solution." }
+        ],
+        "userTesting": "Two rounds — one internal session and one with two partners, conducted by the PM using my test plan. Testing focused on validating that the wizard felt intuitive, reduced cognitive load, and gave partners a clear sense of progress.",
+        "workingWithDevs": "Developers were brought in early and kept in the loop throughout — not just at handoff. The PM and I co-wrote Jira tickets using a template I had built with the dev team. Wireframes and prototypes were linked directly in the tickets."
+      },
+      "impact": {
+        "opening": "Shipping the redesigned experience had a measurable effect on both sides of the platform — for the partners using it, and for the internal teams supporting them.",
+        "barChart": [
+          { "label": "Trips online", "value": "3,160", "width": "88%" },
+          { "label": "Active partners", "value": "503", "width": "60%" },
+          { "label": "Trips YTD", "value": "+588%", "width": "95%" },
+          { "label": "Partners YTD", "value": "+300%", "width": "75%" }
+        ],
+        "closingQuote": "The +283% increase in trips published over the 10 months following deployment reflected a platform that was finally easier to contribute to. But the number I’m most proud of is the 78%. Partners — many non-tech-savvy, many running solo businesses — could publish their experience on a marketplace entirely on their own. That’s what a well-designed product should do.",
+        "whatIDoDifferently": "The pricing section deserved a dedicated sprint rather than being absorbed into the overhaul. Starting the Partner immersion before the search project concluded would also have accelerated the discovery phase significantly."
+      },
       "myRole": "Product Designer in a duo with a PM, alongside backend dev, frontend dev and CTO. End-to-end scope — from discovery to delivery.",
-      "problem": "78.6% of partners spent more than 40 minutes creating a trip — already knowing the tool. The form was a single overwhelming page with no progress indicator, no guidance, and everything appearing mandatory. Partners abandoned mid-way, some trips took weeks to go live, and travel advisors were filling forms on partners' behalf.",
-      "solution": "A step-by-step wizard replacing the monolithic form. Splitting mandatory from optional fields, adding a logical flow (experience → programme → logistics), a persistent progress bar, save state, live preview, and improved microcopy. Partners could complete the process independently and significantly faster.",
+      "context": "Decathlon Travel is a marketplace for sports trips. Experience providers use a B2B SaaS called Partner to manage bookings, payments, and list their trips on the marketplace.",
+      "problem": "78.6% of partners spent more than 40 minutes creating a trip. The form was a single overwhelming page with no progress indicator, no guidance, and everything appearing mandatory.",
+      "solution": "A step-by-step wizard replacing the monolithic form, with mandatory/optional split, logical flow, save state, progress bar, and live preview.",
       "transformations": [],
       "narrativeTitle": "",
       "narrative": [],
-      "focusAreas": [
-        {
-          "title": "Reframing the problem",
-          "description": "User research for the search bar redesign revealed users weren't finding trips — not because of poor UX, but because supply was the bottleneck. Partners abandoning the creation form meant too few trips on the marketplace."
-        },
-        {
-          "title": "Design decisions",
-          "description": "A step-by-step wizard was chosen to simultaneously address cognitive load, lack of guidance, and onboarding friction. Key decisions: mandatory/optional split, logical flow, save state, progress bar, and live preview of the marketplace listing."
-        },
-        {
-          "title": "The hardest problem: pricing",
-          "description": "Two trip types (FIT and GIR), variable pricing by season, group size and age, and nested add-ons required designing dynamic price grids from scratch — while learning Decathlon Travel’s business logic in parallel."
-        }
-      ],
-      "userImpact": [
-        "78% of partners completed the process fully independently — no support needed",
-        "59% of trips submitted within 24 hours, up from 45% — a record at the time",
-        "100% of internal teams preferred the new version (internal survey)",
-        "~3 hours saved weekly per account manager and travel advisor"
-      ],
-      "businessImpact": [
-        "+283% trips published over the 10 months following deployment",
-        "3,160 trips online and 503 active partners as of February 2026",
-        "+588% trips YTD and +300% partners YTD — growth continued after my departure"
-      ],
-      "takeaway": "The number I'm most proud of: 78% of partners — many non-tech-savvy, many running solo businesses — could add their experience to a marketplace entirely on their own. That's what a well-designed product should do.",
-      "reflection": "The pivot from B2C to B2B wasn't a given — it required cross-referencing heatmap data, user interviews, and partner behaviour data to make the case internally. Influencing the COO and CTO early, and sharing ownership with the PM, made the direction credible and buildable from day one.",
-      "whyMatters": "Improving conversion on the traveler side while ignoring the supply problem would have been optimizing the wrong thing. This project showed that the highest-leverage design work is sometimes the least visible — on the B2B side, behind a login wall, used by a few hundred operators rather than millions of travelers."
+      "focusAreas": [],
+      "userImpact": [],
+      "businessImpact": [],
+      "takeaway": "",
+      "reflection": "",
+      "whyMatters": ""
     },
     "stellaris-ftue": {
       "title": "Talent First",
