@@ -44,7 +44,8 @@
         "B2C",
         "CRO"
       ],
-      "location": "Decathlon"
+      "location": "Decathlon",
+      "externalUrl": "https://www.behance.net/gallery/205819001/Decathlon-Travel-Product-Design"
     },
     "stellaris-cloaking": {
       "title": "Cloaking feature on Stellaris",
@@ -54,7 +55,8 @@
         "Desktop",
         "Complex workflows"
       ],
-      "location": "Paradox Interactive"
+      "location": "Paradox Interactive",
+      "externalUrl": "https://www.behance.net/gallery/174367159/Stellaris-UX-Design"
     },
     "stellaris-ftue": {
       "title": "Onboarding & tutorials on Stellaris",
