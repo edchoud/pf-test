@@ -10187,7 +10187,7 @@ function Uk(e,t){
     }
   },[]),null
 },Kk=({
-  title:e,description:t,tags:n,slug:r,image:o,location:i,isLocked:s=!1,imageContain:a=!1
+  title:e,description:t,tags:n,slug:r,image:o,location:i,isLocked:s=!1,imageContain:a=!1,externalUrl:v
 })=>{
   const l=s?"div":v?"a":wc,u=s?{
     className:"card-case group block cursor-default h-full"
